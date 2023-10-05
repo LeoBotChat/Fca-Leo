@@ -9,12 +9,12 @@
   "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FortSalary/Fca-Leo-Remaster/issues"
+    "url": "https://github.com/LeoBotChat/Fca-Leo-Remaster/issues"
   },
-  "homepage": "https://github.com/FortSalary/Fca-Leo-Remaster#readme",
+  "homepage": "https://github.com/LeoBotChat/Fca-Leo-Remaster#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/FortSalary/Fca-Leo-Remaster.git"
+    "url": "git://github.com/LeoBotChat/Fca-Leo-Remaster.git"
   },
   "dependencies": {
     "aes-js": "latest",
