@@ -1,5 +1,5 @@
 
-[![Socket Badge](https://socket.dev/api/badge/npm/package/fca-leo-remaster)](https://socket.dev/npm/package/fca-leo-remaster)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/fca-leo)](https://socket.dev/npm/package/fca-leo)
 
 This package require NodeJS 14.17.0 to work properly.
 
@@ -9,7 +9,7 @@ This package require NodeJS 14.17.0 to work properly.
 
 Original Project(Deprecated): https://github.com/Schmavery/facebook-chat-api
 
-Chúc các bạn một ngày tốt lành!, cảm ơn vì đã sài Sản phẩm của HZI, thân ái
+Chúc các bạn một ngày tốt lành!
 
 
 ## Support For : 
@@ -29,11 +29,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-leo-remaster
+npm i fca-leo
 ```
 or
 ```bash
-npm install fca-leo-remaster
+npm install fca-leo
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -42,11 +42,11 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install fca-leo-remaster@latest
+npm install fca-leo@latest
 ```
 Hoặc
 ```bash
-npm i fca-leo-remaster@latest
+npm i fca-leo@latest
 ```
 
 ## Nếu Bạn Muốn Test Api 
@@ -57,7 +57,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-leo-remaster"); // lấy từ lib ra 
+const login = require("fca-leo"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -97,7 +97,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-leo-remaster')
+    var login = require('fca-leo')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -118,7 +118,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-leo-remaster");
+const login = require("fca-leo");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
